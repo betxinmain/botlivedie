@@ -280,7 +280,7 @@ def main():
     app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_text_batch))
     app.add_handler(MessageHandler(filters.Document.ALL, handle_file))
     print("🤖 Bot đang chạy. Nhấn Ctrl+C để thoát.")
-  app.run_polling(close_loop=False, drop_pending_updates=True)
+    app.run_polling(close_loop=False, drop_pending_updates=True)
 
 
 if __name__ == "__main__":
