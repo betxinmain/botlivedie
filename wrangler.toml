@@ -1,0 +1,13 @@
+name = "tt-checker-bot"
+main = "src/worker.js"
+compatibility_date = "2025-08-01"
+
+[vars]
+FREE_USES = "3"
+DAILY_RESET_UTC_OFFSET = "+07:00"
+ADMINS = "123456789,987654321"
+WEBHOOK_SECRET = "use-a-long-random-secret"
+
+[[kv_namespaces]]
+binding = "USAGE_KV"
+id = "REPLACE_WITH_KV_ID"
