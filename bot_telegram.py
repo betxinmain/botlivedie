@@ -140,7 +140,7 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     msg = (
         "👋 Xin chào!\n"
-           "👋 Tôi Là Bot Check Live Die Account Tiktok \n"
+           "Tôi Là Bot Check Live Die Account Tiktok\n"
         "• Gửi file .txt (mỗi dòng 1 username) để kiểm tra hàng loạt\n"
         "• Giới hạn song song: tối đa 5 để tránh 429\n"
         "• Lệnh /uses để xem số lần dùng miễn phí\n"
